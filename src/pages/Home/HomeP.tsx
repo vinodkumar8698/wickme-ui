@@ -7,9 +7,8 @@ const HomeP = () => {
   return (
     <>
       <Carosel />
-      <Headings heading="Latest Deals" paragraph="Grab the best deals of the day from popular stores along with the cashback." radioNames="Handpicked, Online Games, Booking" />
-      <Headings heading="Popular Deals" paragraph="Browse the store with boosted cashback rates, hurry to grab the cashback" radioNames="Handpicked, Online Games, Booking" />
-      <Footer />
+      <Headings url="https://fakestoreapi.com/products/category/jewelery?limit=4" heading="Latest Deals" paragraph="Grab the best deals of the day from popular stores along with the cashback." radioNames="Handpicked, Online Games, Booking" />
+      <Headings url="https://fakestoreapi.com/products?limit=4" heading="Popular Deals" paragraph="Browse the store with boosted cashback rates, hurry to grab the cashback" radioNames="Handpicked, Online Games, Booking" />
     </>
   )
 }
