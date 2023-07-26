@@ -4,7 +4,7 @@ import Card from "./Card"
 const Headings = (props: any) => {
   const couponData: any = [
     {
-      imageUrl: "https://laraback.enactweb.com/img/cap.jpeg",
+      imageUrl: "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/23484824/2023/5/31/fe62fcb7-fc71-422d-bfdf-e55992f964b91685522519661AllenSollyMenMaroonSlimFitOpaqueStripedFormalShirt1.jpg",
       description: "Flat 43.1% Cashback",
       couponCode: "ABC123"
     },
@@ -19,14 +19,13 @@ const Headings = (props: any) => {
       couponCode: "XYZ456"
     },
     {
-      imageUrl: "https://laraback.enactweb.com/img/shoes.jpg",
+      imageUrl: "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/12853670/2020/11/12/11812d72-9790-4ccf-99b2-c01f39c9aa511605161329126TBH-UBER-MR1.jpg",
       description: "Upto 48% Cashback",
       couponCode: "XYZ456"
     },
   ]
 
   const { heading, paragraph, radioNames } = props
-  const radioButNames = radioNames.split(",")
 
   return (
     <>
