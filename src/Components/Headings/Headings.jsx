@@ -11,7 +11,6 @@ const Headings = (props) => {
      await fetch(url).then((res) => res.json()).then((data) => {
        setData(data)
        console.log(data)
-    setLoading(false)
 
      })
    } catch (error) {
@@ -21,7 +20,7 @@ const Headings = (props) => {
 
   useEffect(() => {
     getData();
-  }, [url])
+  }, [])
 
 
   return (

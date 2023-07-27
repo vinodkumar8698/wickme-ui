@@ -1,5 +1,5 @@
 import React from 'react'
-import Headings from './../Components/Headings/Headings';
+import Headings from '../../Components/Headings/Headings';
 
 const stores = () => {
     return (

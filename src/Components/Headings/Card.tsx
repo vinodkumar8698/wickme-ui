@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Card = (data: any) => {
@@ -18,7 +19,9 @@ const Card = (data: any) => {
             <h5 className="card-title">{data?.data.price}</h5>
             <p className="card-text">{data?.data.title}</p>
             <div className="coupon-code">
-              <button id= "getCode" className="btn btn-primary position-relative z-1" style={{ marginRight: "-27px" }}>Get Code</button>
+              <Link href={`/coupons/${data.data.id}`}>
+                <button id="getCode" className="btn btn-primary position-relative z-1" style={{ marginRight: "-27px" }}>Get Code</button>
+              </Link>
               <button className=" btn btn-outline-primary btn-sm disabled position-relative z-0">{data?.data.title.substring(0, 5).trim()}</button>
             </div>
           </div>
