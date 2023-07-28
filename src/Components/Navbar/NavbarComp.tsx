@@ -8,7 +8,7 @@ const NavbarComp = () => {
       <nav className="navbar sticky-top navbar-expand-lg shadow-sm p-3 mb-4 bg-body rounded mx-lg-5 mt-3 mx-md-3 mx-3">
         <div className="container-fluid">
           <Link className="navbar-brand" href="/">
-            <Image src="next.svg" alt="Logo" width="30" height="24" className="d-inline-block align-text-top" />
+            <Image src="/next.svg" alt="Logo" width="30" height="24" className="d-inline-block align-text-top" />
           </Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
@@ -26,10 +26,10 @@ const NavbarComp = () => {
                   Categories
                 </Link>
                 <ul className="dropdown-menu">
-                  <li><Link className="dropdown-item" href="/electronics">Electronics</Link></li>
-                  <li><Link className="dropdown-item" href="/jewelery">Jewelery</Link></li>
-                  <li><Link className="dropdown-item" href="/men-clothing">Men's clothing</Link></li>
-                  <li><Link className="dropdown-item" href="women-clothing">Women's clothing</Link></li>
+                  <li><Link className="dropdown-item" href="/categories/electronics">Electronics</Link></li>
+                  <li><Link className="dropdown-item" href="/categories/jewelery">Jewelery</Link></li>
+                  <li><Link className="dropdown-item" href="/categories/men's%20clothing">Men's clothing</Link></li>
+                  <li><Link className="dropdown-item" href="/categories/women's%20clothing">Women's clothing</Link></li>
                 </ul>
               </li>
             </ul>

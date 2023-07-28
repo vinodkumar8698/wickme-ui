@@ -20,7 +20,7 @@ const Headings = (props) => {
 
   useEffect(() => {
     getData();
-  }, [])
+  }, [url])
 
 
   return (
